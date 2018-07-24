@@ -1,0 +1,13 @@
+nav ul {
+  display: none;
+  list-style-type: none;
+}
+
+nav li {
+  border-bottom: 2px solid lightgray;
+}
+
+nav a {
+  text-decoration: none;
+}
+
