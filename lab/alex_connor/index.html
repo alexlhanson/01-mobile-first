@@ -3,25 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
+  <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
+  <link rel="stylesheet" href="./vendor/styles/normalize.css">
+  <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
+  <link rel="stylesheet" href="./vendor/styles/icons.css">
+  <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <link rel="stylesheet" href="./vendor/styles/base.css">
+  <link rel="stylesheet" href="./vendor/styles/layout.css">
+  <link rel="stylesheet" href="./vendor/styles/modules.css">
+  <!-- COMMENT - DONE: Explain the ordering of the loading of the stylesheets -->
+  <!-- They load from top to bottom which is in order of specificity meaning the last loaded gets priority. -->
 
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-
-  <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- PUT YOUR RESPONSE HERE -->
-
-  <!-- REVIEW: This is the favicon -->
+  <!-- REVIEW: This is the favicon REVIEWED-->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 </head>
 <body>
   <header class="clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- https://css-tricks.com/snippets/css/clear-fix/ -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!-- Its used by a parent element to clear its children. -->
 
     <section class="heading-group-h1">
       <h1>
